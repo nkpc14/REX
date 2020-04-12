@@ -1,39 +1,80 @@
 const Friends = require('../../models/Friends');
-const Users = require('../../models/Users');
+const userObj = require('./User');
 const mongoose = require('mongoose');
 
 class Friendship {
     Friends = null;
-    Users = null;
+    userObj = null;
     errors = [];
-    userId = null;
+    user = null;
 
-    constructor(Friends, Users) {
+    constructor(Friends, userObj) {
         this.Friends = Friends;
-        this.User = Users;
+        this.userObj = userObj;
     }
 
-    getUser() {
+    getCurrentUser(id) {
+        const user = this.userObj.getUserById(id);
+        if (user.data != null) {
+            this.user = user.data;
+        } else {
+            return null;
+        }
+    }
+
+    addFriend(id, username) {
+        if (mongoose.Types.ObjectId.isValid(id)) {
+            if (!this.isFriend(username)) {
+
+                const friend = new this.Friends({
+                    userId: id,
+                    friendId:
+                });
+
+            }
+            return {
+                message: username + 'is already in your friend list.',
+                success: true,
+                data: username,
+                statusCode: 200
+            };
+        }
+        return {
+            message: 'Request userId is not valid.',
+            success: true,
+            data: null,
+            statusCode: 404
+        };
+    }
+
+    removeFriend(id, username) {
 
     }
 
-    addFriend(user) {
+    sendFriendRequest(id, username) {
 
     }
 
-    sendFriendRequest() {
+    isFriend(id, username) {
+        const user = this.userObj.find({_id: username});
+        const otherUserId = user._id;
+
+        return {
+            message: 'Username is not valid.',
+            success: true,
+            data: null,
+            statusCode: 404
+        };
+    }
+
+    friendSince(id, username) {
 
     }
 
-    isFriend() {
+    mutualFriends(id, username) {
 
     }
-
-    friendSince() {
-
-    }
-
 
 }
 
-module.exports = new Friendship(Friends);
+module.exports = new Friendship(Friends, userObj);

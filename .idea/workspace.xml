@@ -3,11 +3,10 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" line="18" />
     <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" line="23" />
-    <bookmark url="file://$PROJECT_DIR$/App/Algorithms/Social/User.js" line="65" />
+    <bookmark url="file://$PROJECT_DIR$/App/Algorithms/Social/User.js" line="71" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40dac25-c42b-48c8-8167-80114c14dd0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Algorithms/Social/User.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/arrow_down.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/arrow_left.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/camera.png" afterDir="false" />
@@ -60,6 +59,8 @@
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" afterDir="false" />
@@ -80,14 +81,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6354167">
+    <splitter split-orientation="horizontal" split-proportion="0.51811594">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
+            <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Friendship.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="886">
-                  <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+                <state relative-caret-position="302">
+                  <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -97,10 +98,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/App/controllers/userController.js">
+            <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+                <state relative-caret-position="442">
+                  <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -160,7 +161,6 @@
         <option value="$PROJECT_DIR$/App/models/Comments.js" />
         <option value="$PROJECT_DIR$/App/models/Replies.js" />
         <option value="$PROJECT_DIR$/App/models/Posts.js" />
-        <option value="$PROJECT_DIR$/App/controllers/userController.js" />
         <option value="$PROJECT_DIR$/App/routes/UserRoutes.js" />
         <option value="$PROJECT_DIR$/App/routes/commentRoutes.js" />
         <option value="$PROJECT_DIR$/App/controllers/postController.js" />
@@ -193,16 +193,17 @@
         <option value="$PROJECT_DIR$/App/models/Friends.js" />
         <option value="$PROJECT_DIR$/App/Algorithms/DS/Graph.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" />
+        <option value="$PROJECT_DIR$/App/controllers/userController.js" />
         <option value="$PROJECT_DIR$/App/Algorithms/Social/User.js" />
+        <option value="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-37" />
-    <option name="y" value="-31" />
+    <option name="x" value="23" />
+    <option name="y" value="-29" />
     <option name="width" value="1218" />
-    <option name="height" value="880" />
+    <option name="height" value="853" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -212,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,7 +261,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,18 +330,19 @@
       <workItem from="1586589348855" duration="5909000" />
       <workItem from="1586607815355" duration="20492000" />
       <workItem from="1586680752553" duration="8459000" />
-      <workItem from="1586701995346" duration="5525000" />
+      <workItem from="1586701995346" duration="6878000" />
+      <workItem from="1586709210198" duration="3485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239332000" />
+    <option name="totallyTimeSpent" value="244170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28854167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -356,7 +358,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.35677084" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.40497512" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -712,31 +714,31 @@
     <entry file="file://$PROJECT_DIR$/App/Algorithms/DS/Graph.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Friendship.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="312">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="85" column="37" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+        <state relative-caret-position="208">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Friendship.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        <state relative-caret-position="442">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>

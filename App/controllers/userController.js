@@ -1,9 +1,12 @@
 const User = require('../models/Users');
 const mongoose = require('mongoose');
 const {validationResult} = require('express-validator');
+const userAlgorithms = require('../Algorithms/Social/User');
 exports.getAllUser = async (req, res, next) => {
-    const user = await User.find({});
-    res.json({success: true, data: user});
+    const response = await userAlgorithms.getUsers();
+    if (response.success) {
+        res.json(response.data);
+    }
 };
 exports.getUserById = async (req, res, next) => {
     if (mongoose.Types.ObjectId.isValid(req.params.id)) {

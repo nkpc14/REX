@@ -12,9 +12,8 @@ const nervesAuth = require('./auth/nervesAuth/auth');
 const userRoute = require('./App/routes/UserRoutes');
 const postRoute = require('./App/routes/postRoutes');
 const googleAuthRoutes = require('./auth/google/routes');
-const FriendAlgorithm = require('./App/Algorithms/Social/Friendship');
 
-var whitelist = ['http://localhost:8080',];
+var whitelist = ['*','http://localhost:8080','http://localhost:3000'];
 var corsOptions = {
     origin: function (origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {
@@ -28,7 +27,7 @@ var corsOptions = {
 
 //request filters
 const app = express();
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(passport.initialize());
@@ -40,7 +39,6 @@ app.use('/user', userRoute);
 app.use('/post', postRoute);
 
 app.use('', (req, res, next) => {
-    console.log(FriendAlgorithm.Friends);
     res.write("<h1>Welcome to home Page</h1>");
     res.end();
 });
@@ -49,19 +47,19 @@ app.use('', (req, res, next) => {
 //Error Handing Middleware
 
 //Server error
-app.use('/500', (req, res, next) => {
-    res.json("Internal Error Occurred");
-});
-
-// //Page not found error
-// app.use((req, res, next) => {
-//
+// app.use('/500', (req, res, next) => {
+//     res.json("Internal Error Occurred");
 // });
-
-//Global error handler
-app.use((error, req, res, next) => {
-    // return res.status(500).json({errors: {serverError: "Internal Server Error"}});
-});
+//
+// // //Page not found error
+// // app.use((req, res, next) => {
+// //
+// // });
+//
+// //Global error handler
+// app.use((error, req, res, next) => {
+//     // return res.status(500).json({errors: {serverError: "Internal Server Error"}});
+// });
 
 
 mongoose.connect('mongodb://localhost:27017/REX', {useNewUrlParser: true, useUnifiedTopology: true})

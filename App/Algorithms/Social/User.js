@@ -10,13 +10,13 @@ class User {
     }
 
     async getUsers() {
-        const user = await User.find({});
-        return {success: true, data: user};
+        const user = await this.User.find({});
+        return {success: true, data: user, statusCode: 200};
     }
 
     async getUserById(id) {
         if (mongoose.Types.ObjectId.isValid(id)) {
-            const user = await User.findById(id);
+            const user = await this.User.findById(id);
             if (!user) {
                 return {
                     message: 'User don\' exists.',
@@ -35,11 +35,17 @@ class User {
                 statusCode: 200
             };
         }
+        return {
+            message: 'UserId is not valid.',
+            success: true,
+            data: null,
+            statusCode: 404
+        };
     }
 
     async getUserByUsername(username) {
         if (mongoose.Types.ObjectId.isValid(username)) {
-            const user = await User.find({username: username});
+            const user = await this.User.find({username: username});
             if (!user) {
                 return {
                     message: 'User don\' exists.',
@@ -61,11 +67,11 @@ class User {
     }
 
     async createUser(userData) {
-        const oldUser = User.find({$or: [{email: userData.emails}, {username: userData.username}]});
+        const oldUser = this.User.find({$or: [{email: userData.emails}, {username: userData.username}]});
         if (!oldUser) {
             return {message: "User already exists", success: false, data: null, statusCode: 200};
         } else {
-            const user = await new User(userData);
+            const user = await new this.User(userData);
             await user.save();
             if (!user) {
                 return {
@@ -81,7 +87,7 @@ class User {
 
     async updateUserById(id, userData) {
         if (mongoose.Types.ObjectId.isValid(id)) {
-            const user = await User.findOneAndUpdate({_id: id}, {$set: userData}, {new: true});
+            const user = await this.User.findOneAndUpdate({_id: id}, {$set: userData}, {new: true});
             if (user) {
                 return {success: true, message: "User Updated", data: user, statusCode: 200}
             }
@@ -91,11 +97,12 @@ class User {
 
     async deleteUserid(id) {
         if (mongoose.Types.ObjectId.isValid(id)) {
-            const user = await User.findOneAndRemove({_id: id});
+            const user = await this.User.findOneAndRemove({_id: id});
             return {success: false, message: "User deleted!", data: null, statusCode: 200}
         }
         return {success: false, message: "User don't exist", data: null, statusCode: 200}
     }
 }
 
-module.exports = new User;
+const user = new User(Users);
+module.exports = user;
