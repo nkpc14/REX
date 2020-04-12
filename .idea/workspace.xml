@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" line="18" />
+    <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" line="23" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a40dac25-c42b-48c8-8167-80114c14dd0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/arrow_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/drawer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/google-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/liveTv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/logoonly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/nervesXlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/secure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/secure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/verified_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountHome.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountSettings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/NervesXNavigator.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/PersonalInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/Security.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/Tabs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/UserDataInformation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/ChatBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CommentInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/MessageReceived.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Post.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/PostsWindow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Reply.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Stories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Suggestions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/LandingPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/SignUp.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/TImeline/Achievements.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/TImeline/Certificates.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/TImeline/Projects.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/TImeline/SkillSets.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/TImeline/TimeLine.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtonSmall.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DraggablePost.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/FollowUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/OnlineBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/PostImageHolder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Tray.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserTab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Home.vue" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/models/Friends.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login</find>
+      <find>reply</find>
+      <find>comment</find>
+      <find>cur</find>
+      <find>position</find>
+      <find>map-m</find>
+      <find>map-mar</find>
+      <find>icon</find>
+      <find>caret</find>
+      <find>Comment</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>signup</replace>
+      <replace>reply</replace>
+      <replace>comment</replace>
+      <replace>user-tab</replace>
+      <replace>Reply</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend/VueJS/nervesx" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/PersonalInfo.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/auth.js" />
+        <option value="$PROJECT_DIR$/routes/UserRoutes.js" />
+        <option value="$PROJECT_DIR$/App/Auth/google/routes.js" />
+        <option value="$PROJECT_DIR$/App/Auth/config.js" />
+        <option value="$PROJECT_DIR$/App/Auth/google/google.js" />
+        <option value="$PROJECT_DIR$/App/Social/models/Comments.js" />
+        <option value="$PROJECT_DIR$/App/Main/models/Users.js" />
+        <option value="$PROJECT_DIR$/App/Social/models/Posts.js" />
+        <option value="$PROJECT_DIR$/fileStorage.js" />
+        <option value="$PROJECT_DIR$/App/Main/routes/UserRoutes.js" />
+        <option value="$PROJECT_DIR$/App/Main/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/App/Social/routes/postRoutes.js" />
+        <option value="$PROJECT_DIR$/App/Social/controllers/postController.js" />
+        <option value="$PROJECT_DIR$/controllers/postController.js" />
+        <option value="$PROJECT_DIR$/App/models/Comments.js" />
+        <option value="$PROJECT_DIR$/App/models/Replies.js" />
+        <option value="$PROJECT_DIR$/App/models/Posts.js" />
+        <option value="$PROJECT_DIR$/App/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/App/routes/UserRoutes.js" />
+        <option value="$PROJECT_DIR$/App/routes/commentRoutes.js" />
+        <option value="$PROJECT_DIR$/App/controllers/postController.js" />
+        <option value="$PROJECT_DIR$/App/controllers/commentController.js" />
+        <option value="$PROJECT_DIR$/App/controllers/replyController.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountSettings.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/LandingPage.vue" />
+        <option value="$PROJECT_DIR$/auth/google/routes.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js" />
+        <option value="$PROJECT_DIR$/auth/google/google.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/vue.config.js" />
+        <option value="$PROJECT_DIR$/framework/Model/Model.js" />
+        <option value="$PROJECT_DIR$/auth/config.js" />
+        <option value="$PROJECT_DIR$/App/models/Users.js" />
+        <option value="$PROJECT_DIR$/auth/nervesAuth/auth.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/SignUp.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Model.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/PostImageHolder.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DragabblePost.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DraggablePost.vue" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/App/models/Friends.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="2595" />
+    <option name="y" value="-28" />
+    <option name="width" value="1218" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/App/Auth" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\frontend\VueJS\nervesx\src\assets" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\App" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\auth" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\App\Auth" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\App\Social" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a40dac25-c42b-48c8-8167-80114c14dd0f" name="Default Changelist" comment="" />
+      <created>1585205714222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585205714222</updated>
+      <workItem from="1585205717446" duration="14028000" />
+      <workItem from="1585220588514" duration="19244000" />
+      <workItem from="1585286533309" duration="23640000" />
+      <workItem from="1585320823699" duration="30226000" />
+      <workItem from="1585458141225" duration="22971000" />
+      <workItem from="1585504055265" duration="8257000" />
+      <workItem from="1585549526192" duration="28156000" />
+      <workItem from="1585593101247" duration="237000" />
+      <workItem from="1585594535529" duration="594000" />
+      <workItem from="1585642010116" duration="15492000" />
+      <workItem from="1585767041935" duration="536000" />
+      <workItem from="1585781273185" duration="2426000" />
+      <workItem from="1585828108793" duration="1017000" />
+      <workItem from="1586068650431" duration="608000" />
+      <workItem from="1586434834657" duration="5819000" />
+      <workItem from="1586508539825" duration="19203000" />
+      <workItem from="1586548220603" duration="6730000" />
+      <workItem from="1586589348855" duration="5909000" />
+      <workItem from="1586607815355" duration="20492000" />
+      <workItem from="1586680752553" duration="8459000" />
+      <workItem from="1586701995346" duration="797000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="234604000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1536" height="864" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2890625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.31712964" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2894911" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.31725615" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/node_modules/@fortawesome/free-solid-svg-icons/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="142" column="32" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/UserDataInformations.vue" />
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/Tabs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/UserDataInformation.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/PersonalInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Auth/routes/authRoute.js" />
+    <entry file="file://$PROJECT_DIR$/fileStorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/postController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="75" column="2" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/routes/postRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/commentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/Comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/replyController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/Replies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/routes/commentRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/Security.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="50" selection-start-line="50" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/NervesXNavigator.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/LandingPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Model/Model.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/google/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitizers.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/routes/UserRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/Users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/nervesAuth/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/SignUp.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountSettings.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/Posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Post.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#616#1865#0" />
+            <element signature="e#1915#3041#0" />
+            <element signature="e#3075#3116#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/google/google.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Model.vue" />
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#1040#1092#0" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtonSmall.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="8" lean-forward="true" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/PostImageHolder.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DraggablePost.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/Friends.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>

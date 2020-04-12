@@ -1,0 +1,41 @@
+const mongoose = require('mongoose');
+
+module.exports = mongoose.model('Replies', new mongoose.Schema({
+    author: {
+        type: String,
+        required: true
+    },
+    commentId: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
+    },
+    data: {
+        type: String,
+    },
+    nerve: {
+        type: String,
+        required: true,
+    },
+    replies: {
+        type: [mongoose.Schema.Types.ObjectId],
+        ref: 'Replies'
+    },
+    likes: {
+        type: [mongoose.Schema.Types.ObjectId],
+        ref: 'Likes'
+    },
+    images: {
+        type: [mongoose.Schema.Types.ObjectId],
+        ref: 'Images'
+    },
+    tags: {
+        type: [mongoose.Schema.Types.ObjectId],
+        ref: 'Tags'
+    },
+    deleted: {
+        type: Boolean,
+        default: false
+    }
+}, {
+    timestamps: true
+}));
