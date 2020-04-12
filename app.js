@@ -12,7 +12,7 @@ const nervesAuth = require('./auth/nervesAuth/auth');
 const userRoute = require('./App/routes/UserRoutes');
 const postRoute = require('./App/routes/postRoutes');
 const googleAuthRoutes = require('./auth/google/routes');
-
+const FriendAlgorithm = require('./App/Algorithms/Social/Friendship');
 
 var whitelist = ['http://localhost:8080',];
 var corsOptions = {
@@ -23,7 +23,7 @@ var corsOptions = {
             callback(new Error('Not allowed by CORS'))
         }
     }
-}
+};
 
 
 //request filters
@@ -40,6 +40,7 @@ app.use('/user', userRoute);
 app.use('/post', postRoute);
 
 app.use('', (req, res, next) => {
+    console.log(FriendAlgorithm.Friends);
     res.write("<h1>Welcome to home Page</h1>");
     res.end();
 });
