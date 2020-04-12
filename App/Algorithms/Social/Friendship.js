@@ -25,15 +25,20 @@ class Friendship {
     addFriend(id, username) {
         if (mongoose.Types.ObjectId.isValid(id)) {
             if (!this.isFriend(username)) {
-
-                const friend = new this.Friends({
-                    userId: id,
-                    friendId:
-                });
-
+                const friendId = this.userObj.getUserId(username);
+                const friend = new this.Friends.findByIdAndUpdate(id,
+                    {$push: {friendId: friendId}},
+                    {new: true, useFindAndModify: false}
+                );
+                return {
+                    message: username + " is your friend now.",
+                    success: true,
+                    data: username,
+                    statusCode: 201
+                }
             }
             return {
-                message: username + 'is already in your friend list.',
+                message: username + ' is already in your friend list.',
                 success: true,
                 data: username,
                 statusCode: 200
@@ -48,15 +53,26 @@ class Friendship {
     }
 
     removeFriend(id, username) {
-
-    }
-
-    sendFriendRequest(id, username) {
-
+        if (mongoose.Types.ObjectId.isValid(id)) {
+            if (this.isFriend(username)) {
+                const friendId = this.userObj.getUserId(username);
+                const friend = new this.Friends.findByIdAndUpdate({$pop: {friendId: friendId}});
+                return {
+                    success: true,
+                    data: username,
+                    statusCode: 200
+                }
+            }
+            return {
+                message: username + ' is not in your friend list.',
+                success: false,
+                data: null,
+                statusCode: 200
+            };
+        }
     }
 
     isFriend(id, username) {
-        const user = this.userObj.find({_id: username});
         const otherUserId = user._id;
 
         return {
@@ -66,15 +82,7 @@ class Friendship {
             statusCode: 404
         };
     }
-
-    friendSince(id, username) {
-
-    }
-
-    mutualFriends(id, username) {
-
-    }
-
 }
+
 
 module.exports = new Friendship(Friends, userObj);

@@ -3,7 +3,7 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" line="18" />
     <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" line="23" />
-    <bookmark url="file://$PROJECT_DIR$/App/Algorithms/Social/User.js" line="71" />
+    <bookmark url="file://$PROJECT_DIR$/App/Algorithms/Social/User.js" line="76" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40dac25-c42b-48c8-8167-80114c14dd0f" name="Default Changelist" comment="">
@@ -57,11 +57,8 @@
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Tray.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserTab.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" afterDir="false" />
@@ -81,14 +78,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51811594">
+    <splitter split-orientation="horizontal" split-proportion="0.6111111">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Friendship.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="302">
-                  <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+                <state relative-caret-position="730">
+                  <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -100,8 +97,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+                <state relative-caret-position="676">
+                  <caret line="104" column="57" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -193,8 +190,8 @@
         <option value="$PROJECT_DIR$/App/models/Friends.js" />
         <option value="$PROJECT_DIR$/App/Algorithms/DS/Graph.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/App/controllers/userController.js" />
         <option value="$PROJECT_DIR$/App/Algorithms/Social/User.js" />
+        <option value="$PROJECT_DIR$/App/controllers/userController.js" />
         <option value="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" />
       </list>
     </option>
@@ -250,12 +247,6 @@
               <item name="REX" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="REX" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -331,15 +322,15 @@
       <workItem from="1586607815355" duration="20492000" />
       <workItem from="1586680752553" duration="8459000" />
       <workItem from="1586701995346" duration="6878000" />
-      <workItem from="1586709210198" duration="3485000" />
+      <workItem from="1586709210198" duration="6598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244170000" />
+    <option name="totallyTimeSpent" value="247283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375" />
@@ -723,22 +714,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Friendship.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="598">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="676">
+          <caret line="104" column="57" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Friendship.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
         </state>
       </provider>
     </entry>

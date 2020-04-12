@@ -14,6 +14,11 @@ class User {
         return {success: true, data: user, statusCode: 200};
     }
 
+    async getUserId(username) {
+        const user = await this.User.find({username: username});
+        return {success: true, data: user._id, statusCode: 200};
+    }
+
     async getUserById(id) {
         if (mongoose.Types.ObjectId.isValid(id)) {
             const user = await this.User.findById(id);
@@ -101,6 +106,10 @@ class User {
             return {success: false, message: "User deleted!", data: null, statusCode: 200}
         }
         return {success: false, message: "User don't exist", data: null, statusCode: 200}
+    }
+
+    async deactivate(username) {
+
     }
 }
 
