@@ -1,12 +1,14 @@
-const mongoose = require('mongoose');
+import { model, Schema } from 'mongoose';
 
-module.exports = mongoose.model('Comments', new mongoose.Schema({
+export default model('Comments', new Schema({
     author: {
-        type: String,
-        required: true
+        type: Schema.Types.ObjectId,
+        ref:'Profiles',
+        required: true,
     },
     postId: {
-        type: mongoose.Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId,
+        ref:'Posts',
         required: true
     },
     data: {
@@ -17,19 +19,19 @@ module.exports = mongoose.model('Comments', new mongoose.Schema({
         required: true,
     },
     replies: {
-        type: [mongoose.Schema.Types.ObjectId],
+        type: [Schema.Types.ObjectId],
         ref: 'Replies'
     },
     likes: {
-        type: [mongoose.Schema.Types.ObjectId],
+        type: [Schema.Types.ObjectId],
         ref: 'Likes'
     },
     images: {
-        type: [mongoose.Schema.Types.ObjectId],
+        type: [Schema.Types.ObjectId],
         ref: 'Images'
     },
     tags: {
-        type: [mongoose.Schema.Types.ObjectId],
+        type: [Schema.Types.ObjectId],
         ref: 'Tags'
     },
     deleted: {

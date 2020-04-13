@@ -1,15 +1,15 @@
-const User = require('../models/Users');
-const mongoose = require('mongoose');
-const {validationResult} = require('express-validator');
-const userAlgorithms = require('../Algorithms/Social/User');
-exports.getAllUser = async (req, res, next) => {
-    const response = await userAlgorithms.getUsers();
+import User from '../models/Users';
+import { Types } from 'mongoose';
+import { validationResult } from 'express-validator';
+import { getUsers } from '../Algorithms/Social/User';
+export async function getAllUser(req, res, next) {
+    const response = await getUsers();
     if (response.success) {
         res.json(response.data);
     }
-};
-exports.getUserById = async (req, res, next) => {
-    if (mongoose.Types.ObjectId.isValid(req.params.id)) {
+}
+export async function getUserById(req, res, next) {
+    if (Types.ObjectId.isValid(req.params.id)) {
         const user = await User.findById(req.params.id);
         if (!user) {
             res.status(404).json({
@@ -27,9 +27,9 @@ exports.getUserById = async (req, res, next) => {
             data: user
         });
     }
-};
-exports.getUserByUsername = async (req, res, next) => {
-    if (mongoose.Types.ObjectId.isValid(req.params.id)) {
+}
+export async function getUserByUsername(req, res, next) {
+    if (Types.ObjectId.isValid(req.params.id)) {
         const user = await User.find({username: req.params.username});
         if (!user) {
             res.status(404).json({
@@ -47,8 +47,8 @@ exports.getUserByUsername = async (req, res, next) => {
             data: user
         });
     }
-};
-exports.createUser = async (req, res, next) => {
+}
+export async function createUser(req, res, next) {
     const result = validationResult(req);
     if (!result.isEmpty()) {
         return res.json(result);
@@ -65,27 +65,27 @@ exports.createUser = async (req, res, next) => {
         res.json({message: "User created successful", success: true, data: user});
     }
 
-};
+}
 
-exports.updateUserById = async (req, res, next) => {
+export async function updateUserById(req, res, next) {
     const result = validationResult(req);
     if (!result.isEmpty()) {
         return res.json(result);
     }
-    if (mongoose.Types.ObjectId.isValid(req.params.id)) {
+    if (Types.ObjectId.isValid(req.params.id)) {
         const user = await User.findOneAndUpdate({_id: req.params.id}, {$set: req.body}, {new: true});
         if (user) {
             res.json({success: true, message: "User Updated", data: user});
         }
     }
     res.json({success: false, message: "User don't exist", data: null});
-};
+}
 
-exports.deleteUserByID = async (req, res, next) => {
-    if (mongoose.Types.ObjectId.isValid(req.params.id)) {
+export async function deleteUserByID(req, res, next) {
+    if (Types.ObjectId.isValid(req.params.id)) {
         const user = await User.findOneAndRemove({_id: req.params.id});
         res.json({success: false, message: "User deleted!", data: null});
     }
     res.json({success: false, message: "User don't exist", data: null});
-};
+}
 

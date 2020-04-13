@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon --exec babel-node app.js"
   },
   "author": "Nitish Kumar",
   "license": "ISC",
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "bcryptjs": "^2.4.3",
     "body-parser": "latest",
     "cors": "^2.8.5",
@@ -32,6 +33,11 @@
     "sass-loader": "^8.0.2"
   },
   "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/plugin-transform-arrow-functions": "^7.8.3",
+    "@babel/preset-env": "^7.5.0",
     "http-proxy-middleware": "^1.0.3"
   }
 }

@@ -1,5 +1,5 @@
-const Posts = require('../models/Posts');
-const Users = require('../models/Users');
+const Posts = require('../models/Posts').default;
+const Users = require('../models/Users').default;
 const mongoose = require('mongoose');
 
 const {validationResult} = require('express-validator');

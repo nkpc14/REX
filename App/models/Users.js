@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+import { model, Schema } from 'mongoose';
 
-module.exports = mongoose.model('User', new mongoose.Schema({
+export default model('User', new Schema({
     firstName: {
         type: String,
         required: true
@@ -20,15 +20,6 @@ module.exports = mongoose.model('User', new mongoose.Schema({
     email: {
         type: String,
         required: true
-    },
-    mobile: {
-        type: Number,
-    },
-    gender: {
-        type: String,
-    },
-    photo: {
-        type: String,
     },
     dob: {
         type: Date,

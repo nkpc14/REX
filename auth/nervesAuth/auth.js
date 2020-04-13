@@ -1,12 +1,12 @@
-const express = require('express');
-const router = express.Router();
-const {body} = require('express-validator');
-const mongoose = require('mongoose');
-const jwt = require('jsonwebtoken');
-const User = require('../../App/models/Users');
-const {validationResult} = require('express-validator');
-const bcrypt = require('bcryptjs');
-const {PASSWORD_SALT, JWTSECRET_KEY} = require('../config');
+import { Router } from 'express';
+const router = Router();
+import { body } from 'express-validator';
+import mongoose from 'mongoose';
+import { sign } from 'jsonwebtoken';
+import User from '../../App/models/Users';
+import { validationResult } from 'express-validator';
+import { compare, hash } from 'bcryptjs';
+import { PASSWORD_SALT, JWTSECRET_KEY } from '../config';
 
 router.post('/login',
     body('username').notEmpty().trim().escape().isString().isLength({min: 5}),
@@ -21,10 +21,10 @@ router.post('/login',
             if (!user) {
                 return res.status(404).json({message: 'User don\' exists.', success: false, data: null})
             }
-            const doMatch = await bcrypt.compare(password, user.password);
+            const doMatch = await compare(password, user.password);
             if (doMatch) {
                 //Generate JWT
-                const token = await jwt.sign({
+                const token = await sign({
                     userId: user._id.toString(),
                     email: user.email
                 }, JWTSECRET_KEY, {expiresIn: '1h'});
@@ -55,7 +55,7 @@ router.post('/signup',
             console.log(oldUser);
             if (!oldUser) {
                 req.body.username = username;
-                req.body.password = await bcrypt.hash(req.body.password, 12);
+                req.body.password = await hash(req.body.password, 12);
                 const user = await new User(req.body);
                 user.save();
                 return res.json({message: "User created successful", success: true, data: null});
@@ -67,4 +67,4 @@ router.post('/signup',
         }
     });
 
-module.exports = router;
+export default router;

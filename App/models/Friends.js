@@ -1,10 +1,16 @@
-const mongoose = require('mongoose');
+import { model, Schema } from 'mongoose';
 
-module.exports = mongoose.model('Friends', new mongoose.Schema({
-    author: {
-        type: String,
-        required: true
+export default model('Friends', new Schema({
+    userId: {
+        type: Schema.Types.ObjectId,
+        ref: 'Profiles',
+        required: true,
     },
+    friendId: {
+        type: Schema.Types.ObjectId,
+        ref: 'Profiles',
+        required: true,
+    }
 }, {
     timestamps: true
 }));

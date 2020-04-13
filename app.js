@@ -1,17 +1,17 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const helmet = require('helmet');
-const path = require('path');
-const morgan = require('morgan');
-const mongoose = require('mongoose');
-const passport = require('passport');
-const multer = require('./fileStorage');
-const cors = require('cors');
-const nervesAuth = require('./auth/nervesAuth/auth');
+import express from 'express';
+import { json, urlencoded } from 'body-parser';
+import helmet from 'helmet';
+import path from 'path';
+import morgan from 'morgan';
+import { connect } from 'mongoose';
+import passport from 'passport';
+import multer from './fileStorage';
+import cors from 'cors';
+import nervesAuth from './auth/nervesAuth/auth';
 //Routes import
-const userRoute = require('./App/routes/UserRoutes');
-const postRoute = require('./App/routes/postRoutes');
-const googleAuthRoutes = require('./auth/google/routes');
+import userRoute from './App/routes/UserRoutes';
+import postRoute from './App/routes/postRoutes';
+import googleAuthRoutes from './auth/google/routes';
 
 var whitelist = ['*','http://localhost:8080','http://localhost:3000'];
 var corsOptions = {
@@ -28,8 +28,8 @@ var corsOptions = {
 //request filters
 const app = express();
 // app.use(cors(corsOptions));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(json());
+app.use(urlencoded({extended: true}));
 app.use(passport.initialize());
 app.use(morgan('dev'));
 app.use(express.static('frontend'));
@@ -62,7 +62,7 @@ app.use('', (req, res, next) => {
 // });
 
 
-mongoose.connect('mongodb://localhost:27017/REX', {useNewUrlParser: true, useUnifiedTopology: true})
+connect('mongodb://localhost:27017/REX', {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => {
         const server = app.listen(8000);
         console.log("Server Started at http://localhost:" + 8000);
