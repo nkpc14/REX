@@ -1,6 +1,7 @@
 import Friends from '../../models/Friends';
 import userObj from './User';
-import { Types } from 'mongoose';
+import {Types} from 'mongoose';
+import {HttpSuccessResponse, HttpRejectResponse} from '../Utils/Wrappers';
 
 class Friendship {
     Friends = null;
@@ -20,7 +21,7 @@ class Friendship {
         } else {
             return null;
         }
-    }
+    };
 
     addFriend = async (id, username) => {
         if (Types.ObjectId.isValid(id)) {
@@ -54,7 +55,7 @@ class Friendship {
             data: null,
             statusCode: 404
         };
-    }
+    };
 
     removeFriend = async (id, username) => {
         if (Types.ObjectId.isValid(id)) {
@@ -78,7 +79,7 @@ class Friendship {
                 statusCode: 200
             };
         }
-    }
+    };
 
     isFriend = async (id, username) => {
         const otherUserId = user._id;
@@ -89,7 +90,7 @@ class Friendship {
             data: null,
             statusCode: 404
         };
-    }
+    };
 }
 
 

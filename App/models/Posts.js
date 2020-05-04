@@ -1,9 +1,9 @@
-import { model, Schema } from 'mongoose';
+import {model, Schema} from 'mongoose';
 
 export default model('Posts', new Schema({
     author: {
         type: Schema.Types.ObjectId,
-        ref:'Profiles',
+        ref: 'Profiles',
         required: true,
     },
     data: {
@@ -12,6 +12,7 @@ export default model('Posts', new Schema({
     nerve: {
         type: String,
         required: true,
+        default: 'Public'
     },
     comments: {
         type: [Schema.Types.ObjectId],
@@ -31,7 +32,7 @@ export default model('Posts', new Schema({
     },
     images: {
         type: [Schema.Types.ObjectId],
-        ref: 'Images'
+        ref: 'PostImages'
     },
     tags: {
         type: [Schema.Types.ObjectId],

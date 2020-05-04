@@ -1,16 +1,18 @@
-import Friends from '../../models/Friends';
+import Comments from '../../models/Comments'
+import Posts from '../../models/Posts'
 import userObj from './User';
 import { Types } from 'mongoose';
 
-class Friendship {
-    Friends = null;
+class Comments {
+    Comments = null;
     userObj = null;
     errors = [];
     user = null;
 
-    constructor(Friends, userObj) {
-        this.Friends = Friends;
+    constructor(Comments, userObj) {
+        this.Comments = Comments;
         this.userObj = userObj;
+        this.errors = [];
     }
 
     getCurrentUser = async (id) => {

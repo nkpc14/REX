@@ -5,39 +5,47 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node app.js"
+    "start": "nodemon --exec babel-node app.js",
+    "watch": "webpack ./frontend/scripts/client.js -o ./frontend/scripts/bundle.js",
+    "build": "webpack -w"
   },
   "author": "Nitish Kumar",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "babel-node": "0.0.1-security",
     "bcryptjs": "^2.4.3",
     "body-parser": "latest",
     "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "find-or-create": "^2.0.0",
     "helmet": "^3.21.2",
     "jsonwebtoken": "^8.5.1",
     "mongo-sanitize": "^1.1.0",
-    "mongoose": "^5.7.12",
+    "mongoose": "^5.9.10",
     "morgan": "^1.9.1",
     "multer": "^1.4.2",
-    "node-sass": "^4.13.1",
-    "nodemon": "^2.0.1",
+    "node-sass": "^4.14.0",
+    "nodemon": "^2.0.3",
     "passport": "^0.4.1",
     "passport-facebook": "^3.0.0",
     "passport-github": "^1.1.0",
     "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
     "passport-twitter": "^1.0.4",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "simple-peer": "^9.7.0",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.0",
-    "@babel/node": "^7.5.0",
-    "@babel/plugin-transform-arrow-functions": "^7.8.3",
-    "@babel/preset-env": "^7.5.0",
-    "http-proxy-middleware": "^1.0.3"
+    "babel-loader": "^8.1.0",
+    "http-proxy-middleware": "^1.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   }
 }

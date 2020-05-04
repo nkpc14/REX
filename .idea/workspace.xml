@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" line="18" />
-    <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" line="23" />
-    <bookmark url="file://$PROJECT_DIR$/App/Algorithms/Social/User.js" line="76" />
+    <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" line="21" />
+    <bookmark url="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" line="21" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a40dac25-c42b-48c8-8167-80114c14dd0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Algorithms/Social/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/models/Profiles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/nkpc1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Algorithms/Social/Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Algorithms/Utils/Wrappers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/models/PostImages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebRTC/client.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/arrow_down.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/arrow_left.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/camera.png" afterDir="false" />
@@ -33,14 +35,24 @@
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Comment.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CommentInput.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePostModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/FindFriends.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNavOptions.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/MessageReceived.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/OnlineUser.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Post.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/PostsWindow.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Reply.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/SearchResults.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/SearchUserDetailedCard.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Stories.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Suggestions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Tray.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/UserProfielCardSquare.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/UserProfileCardRectangleLarge.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/UserTab.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/LandingPage.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/SignUp.vue" afterDir="false" />
@@ -53,14 +65,33 @@
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtonSmall.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DraggablePost.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropDownTabs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropRight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/FilterNerveSearch.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/FollowUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/IconButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Model.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/OnlineBox.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/PostImageHolder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Tray.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserTab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserTabMessanger.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Messenger.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/user_profile/demo-male.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/Comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Algorithms/Social/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/Algorithms/Social/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/postController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/models/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/models/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/models/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/App/models/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/google/google.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/google/google.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/google/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/google/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/nervesAuth/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/auth/nervesAuth/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" afterDir="false" />
@@ -69,6 +100,355 @@
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-align/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-align/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-align/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase-keys/node_modules/camelcase/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase-keys/node_modules/camelcase/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase-keys/node_modules/camelcase/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase-keys/node_modules/camelcase/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/camelcase/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/camelcase/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/camelcase/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/camelcase/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/capture-stack-trace/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/capture-stack-trace/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/capture-stack-trace/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/capture-stack-trace/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chalk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chalk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ci-info/vendors.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ci-info/vendors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cli-boxes/boxes.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cli-boxes/boxes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cli-boxes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cli-boxes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cli-boxes/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cli-boxes/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cli-boxes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cli-boxes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cli-boxes/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cli-boxes/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/strip-ansi/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/configstore/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/configstore/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/configstore/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/configstore/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/configstore/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/configstore/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/configstore/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/configstore/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/create-error-class/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/create-error-class/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/create-error-class/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/create-error-class/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-spawn/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/lib/enoent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-spawn/lib/enoent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-spawn/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/lib/util/escapeArgument.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/lib/util/escapeCommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/lib/util/hasEmptyArgumentBug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/lib/util/readShebang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/lib/util/resolveCommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-spawn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-spawn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crypto-random-string/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crypto-random-string/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crypto-random-string/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crypto-random-string/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crypto-random-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crypto-random-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crypto-random-string/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/crypto-random-string/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/execa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/execa/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/execa/lib/errname.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/execa/lib/errname.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/execa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/execa/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/execa/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/execa/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/string-width/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/string-width/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/string-width/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/string-width/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gauge/node_modules/strip-ansi/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/buffer-stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-stream/buffer-stream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-stream/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-stream/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/get-stream/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-stream/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/global-dirs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/global-dirs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/global-dirs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/global-dirs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/global-dirs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/global-dirs/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/got/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/got/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/got/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/got/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-ci/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-ci/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-installed-globally/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-installed-globally/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-installed-globally/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-installed-globally/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-installed-globally/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-installed-globally/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-npm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-npm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-npm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-npm/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-npm/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-npm/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-obj/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-obj/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-obj/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-obj/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-obj/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-obj/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-obj/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-obj/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-path-inside/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-path-inside/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-path-inside/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-path-inside/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-path-inside/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-path-inside/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-path-inside/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-path-inside/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-redirect/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-redirect/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-redirect/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-redirect/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-retry-allowed/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-stream/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/latest-version/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/latest-version/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/latest-version/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/latest-version/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/latest-version/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/latest-version/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/latest-version/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/latest-version/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/load-json-file/node_modules/pify/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/make-dir/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/make-dir/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/make-dir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/make-dir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/make-dir/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/make-dir/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/core/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/server_selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/server_selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sessions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/core/uri_parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/uri_parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/dist/browser.umd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/dist/browser.umd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/number.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/number.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/document/compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/castBulkWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/model/castBulkWrite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/assignRawDocsToIdStructure.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/assignRawDocsToIdStructure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/castUpdate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/query/castUpdate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/applyTimestampsToChildren.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/helpers/update/applyTimestampsToChildren.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/options/PopulateOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/options/PopulateOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/SingleNestedPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/SingleNestedPath.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/types/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mpath/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mpath/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mpath/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mpath/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/nopt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/nopt.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/bin/nopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/examples/my-program.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/lib/nopt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/nopt/test/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/extensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/lib/enoent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/lib/resolveCommand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/cross-spawn/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/node_modules/strip-ansi/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-79/binding.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-79/binding.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/lib/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/lib/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/package-json/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/package-json/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/package-json/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/package-json/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/package-json/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/package-json/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/package-json/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/package-json/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-is-inside/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-is-inside/lib/path-is-inside.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-is-inside/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-key/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-key/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/path-type/node_modules/pify/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pify/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pify/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pify/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pify/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prepend-http/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prepend-http/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prepend-http/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prepend-http/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prepend-http/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/base64.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/registry-url.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/registry-url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/test/auth-token.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/test/auth-token.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/test/registry-url.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/test/registry-url.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-url/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-url/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-url/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-url/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-url/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-url/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-url/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-url/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver-diff/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver-diff/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver-diff/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver-diff/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver-diff/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver-diff/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shebang-command/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shebang-command/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/signal-exit/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/signal-exit/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/signal-exit/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/signal-exit/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/signal-exit/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/signal-exit/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/signal-exit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/signal-exit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdx-exceptions/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdx-exceptions/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdx-exceptions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/spdx-exceptions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/spdx-exceptions/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/vendor/macos/term-size" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/vendor/macos/term-size" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timed-out/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unique-string/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unique-string/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unique-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unique-string/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unique-string/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unique-string/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unzip-response/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unzip-response/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unzip-response/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unzip-response/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-parse-lax/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-parse-lax/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-parse-lax/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/url-parse-lax/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-parse-lax/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/widest-line/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/widest-line/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/widest-line/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/strip-ansi/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/write-file-atomic/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/write-file-atomic/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/write-file-atomic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/write-file-atomic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/write-file-atomic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/write-file-atomic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/write-file-atomic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/write-file-atomic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xdg-basedir/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xdg-basedir/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xdg-basedir/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xdg-basedir/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xdg-basedir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xdg-basedir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xdg-basedir/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xdg-basedir/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/strip-ansi/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,14 +460,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6111111">
+    <splitter split-orientation="horizontal" split-proportion="0.62376237">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/App/models/Profiles.js">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Post.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="37" selection-start-column="37" selection-end-column="37" />
+                <state relative-caret-position="104">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="52">
+                  <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/App/models/Posts.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="442">
+                  <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Image.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="608">
+                  <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#0#49#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -96,11 +512,20 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/App/models/PostImages.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="574">
-                  <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+                <state relative-caret-position="364">
+                  <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/App/models/Users.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="598">
+                  <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -125,10 +550,26 @@
       <find>cur</find>
       <find>position</find>
       <find>map-m</find>
-      <find>map-mar</find>
       <find>icon</find>
       <find>caret</find>
       <find>Comment</find>
+      <find>arr</find>
+      <find>header</find>
+      <find>aft</find>
+      <find>createPeer</find>
+      <find>remote</find>
+      <find>remoteVideo.srcObject`</find>
+      <find>offer re</find>
+      <find>answer</find>
+      <find>remo</find>
+      <find>addEventList</find>
+      <find>SocketIdManager.client</find>
+      <find>client</find>
+      <find>logo</find>
+      <find>map</find>
+      <find>map-mar</find>
+      <find>plus</find>
+      <find>top</find>
     </findStrings>
     <replaceStrings>
       <replace>signup</replace>
@@ -136,6 +577,7 @@
       <replace>comment</replace>
       <replace>user-tab</replace>
       <replace>Reply</replace>
+      <replace>client</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -144,65 +586,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/App/Auth/config.js" />
-        <option value="$PROJECT_DIR$/App/Auth/google/google.js" />
-        <option value="$PROJECT_DIR$/App/Social/models/Comments.js" />
-        <option value="$PROJECT_DIR$/App/Main/models/Users.js" />
-        <option value="$PROJECT_DIR$/App/Social/models/Posts.js" />
-        <option value="$PROJECT_DIR$/fileStorage.js" />
-        <option value="$PROJECT_DIR$/App/Main/routes/UserRoutes.js" />
-        <option value="$PROJECT_DIR$/App/Main/controllers/userController.js" />
-        <option value="$PROJECT_DIR$/App/Social/routes/postRoutes.js" />
-        <option value="$PROJECT_DIR$/App/Social/controllers/postController.js" />
-        <option value="$PROJECT_DIR$/controllers/postController.js" />
-        <option value="$PROJECT_DIR$/App/models/Comments.js" />
-        <option value="$PROJECT_DIR$/App/models/Replies.js" />
-        <option value="$PROJECT_DIR$/App/models/Posts.js" />
-        <option value="$PROJECT_DIR$/App/routes/UserRoutes.js" />
-        <option value="$PROJECT_DIR$/App/routes/commentRoutes.js" />
-        <option value="$PROJECT_DIR$/App/controllers/postController.js" />
-        <option value="$PROJECT_DIR$/App/controllers/commentController.js" />
-        <option value="$PROJECT_DIR$/App/controllers/replyController.js" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountSettings.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/LandingPage.vue" />
-        <option value="$PROJECT_DIR$/auth/google/routes.js" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js" />
-        <option value="$PROJECT_DIR$/auth/google/google.js" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/vue.config.js" />
+        <option value="$PROJECT_DIR$/WebRTC/WebRTC.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/frontend/scripts/client.js" />
+        <option value="$PROJECT_DIR$/Server/Sockets/Socket.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtonSmall.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/IconButtonSmall.vue" />
         <option value="$PROJECT_DIR$/framework/Model/Model.js" />
-        <option value="$PROJECT_DIR$/auth/config.js" />
-        <option value="$PROJECT_DIR$/App/models/Users.js" />
-        <option value="$PROJECT_DIR$/auth/nervesAuth/auth.js" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/SignUp.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Model.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/PostImageHolder.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DragabblePost.vue" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js" />
-        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DraggablePost.vue" />
-        <option value="$PROJECT_DIR$/App/models/Friends.js" />
-        <option value="$PROJECT_DIR$/App/Algorithms/DS/Graph.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/App/controllers/userController.js" />
-        <option value="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" />
+        <option value="$PROJECT_DIR$/App/controllers/postController.js" />
         <option value="$PROJECT_DIR$/App/Algorithms/Social/Post.js" />
+        <option value="$PROJECT_DIR$/App/Algorithms/Social/Friendship.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/SearchUserDetailedCard.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Model.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Model.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/SearchResults.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropDownTabs.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/IconButton.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserProfielCardSquare.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserProfileCardRectangleLarge.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/FindFriends.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/UserProfielCardSquare.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/FilterNerveSearch.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/OnlineUser.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserTabMessanger.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Messenger.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNavOptions.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CommentInput.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Reply.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Comment.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropDown.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropRight.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/PostsWindow.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Post.vue" />
+        <option value="$PROJECT_DIR$/App/Algorithms/Utils/Wrappers.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js" />
+        <option value="$PROJECT_DIR$/App/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue" />
+        <option value="$PROJECT_DIR$/App/models/Posts.js" />
+        <option value="$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePostModel.vue" />
+        <option value="$PROJECT_DIR$/App/models/PostImages.js" />
+        <option value="$PROJECT_DIR$/App/Algorithms/Social/Image.js" />
+        <option value="$PROJECT_DIR$/auth/nervesAuth/auth.js" />
+        <option value="$PROJECT_DIR$/App/models/Users.js" />
         <option value="$PROJECT_DIR$/App/Algorithms/Social/User.js" />
-        <option value="$PROJECT_DIR$/App/models/Profiles.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="23" />
-    <option name="y" value="-29" />
-    <option name="width" value="1218" />
-    <option name="height" value="853" />
+    <option name="x" value="606" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -249,6 +691,28 @@
               <item name="App" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="nervesAuth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REX" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -261,7 +725,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/App/Auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/user_profile" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -269,16 +733,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX" />
-      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\frontend\VueJS\nervesx\src\assets" />
-      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\App" />
-      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\auth" />
-      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\images\user_profile" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\WebRTC" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\frontend\VueJS\nervesx\src\components\Dashboard" />
       <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\App\Auth" />
       <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\App\Social" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\frontend\VueJS\nervesx\src\views" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\frontend\VueJS\nervesx\src\components\Dashboard" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\frontend\VueJS\nervesx\src\components\Utilities" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX" />
+      <recent name="C:\Users\nkpc1\Desktop\Rex Project\REX\frontend\VueJS\nervesx\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,16 +793,39 @@
       <workItem from="1586701995346" duration="6878000" />
       <workItem from="1586709210198" duration="7545000" />
       <workItem from="1586749220444" duration="201000" />
+      <workItem from="1586862350478" duration="18540000" />
+      <workItem from="1587812894256" duration="12507000" />
+      <workItem from="1587880924375" duration="2590000" />
+      <workItem from="1587909680377" duration="2548000" />
+      <workItem from="1587913870871" duration="9091000" />
+      <workItem from="1587970118579" duration="2555000" />
+      <workItem from="1587998720294" duration="4817000" />
+      <workItem from="1588009767985" duration="2403000" />
+      <workItem from="1588072077213" duration="1619000" />
+      <workItem from="1588133964438" duration="4014000" />
+      <workItem from="1588168892137" duration="3298000" />
+      <workItem from="1588180080384" duration="5753000" />
+      <workItem from="1588227905819" duration="9552000" />
+      <workItem from="1588255355456" duration="3650000" />
+      <workItem from="1588260795216" duration="2368000" />
+      <workItem from="1588303398544" duration="7069000" />
+      <workItem from="1588329539368" duration="19883000" />
+      <workItem from="1588358232996" duration="275000" />
+      <workItem from="1588424934840" duration="16186000" />
+      <workItem from="1588482799145" duration="24343000" />
+      <workItem from="1588564049654" duration="8641000" />
+      <workItem from="1588590455336" duration="5224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248431000" />
+    <option name="totallyTimeSpent" value="415357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14857745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -351,13 +841,13 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.40497512" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.23258306" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2890625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17228661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -373,7 +863,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.35677084" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.21543409" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,355 +873,410 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Auth/routes/authRoute.js" />
-    <entry file="file://$PROJECT_DIR$/fileStorage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/controllers/postController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="75" column="2" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/routes/postRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/commentController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/replyController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/Replies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/routes/commentRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountHome.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" selection-start-line="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/Security.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="50" selection-start-line="50" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/NervesXNavigator.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/assets/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/LandingPage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/Model/Model.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#65#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/google/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express-validator/src/chain/sanitizers.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/routes/UserRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/nervesAuth/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/SignUp.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountSettings.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/Posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Post.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="101" column="23" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#616#1865#0" />
-            <element signature="e#1915#3041#0" />
-            <element signature="e#3075#3116#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/google/google.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Model.vue" />
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#1040#1092#0" expanded="true" />
-            <element signature="n#style#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtonSmall.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="8" lean-forward="true" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/PostImageHolder.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DraggablePost.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/Comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/Friends.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Algorithms/DS/Graph.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/controllers/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Friendship.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Model.vue" />
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/AccountSettings/AccountHome.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/Model.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/ButtomFullWidth.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/SearchResults.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#IconButton#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/FilterNerveSearch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/UserProfielCardSquare.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/UserProfileCardRectangleLarge.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="67" lean-forward="true" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/SearchUserDetailedCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/IconButton.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropDownTabs.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/OnlineUser.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="113" column="39" lean-forward="true" selection-start-line="113" selection-start-column="39" selection-end-line="113" selection-end-column="39" />
+          <folding>
+            <element signature="e#1312#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/FindFriends.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/UserTabMessanger.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNavOptions.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Messenger.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="e#342#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Reply.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Comment.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePost.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CommentInput.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/PostsWindow.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropDown.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Post.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Utilities/DropRight.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Algorithms/Utils/Wrappers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/LandingPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/routes/UserRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/user_profile/demo-male.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3484">
+          <caret line="134" column="43" lean-forward="true" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/LeftNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#DropRight#0;n#transition#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#DropRight#0;n#transition#2;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#DropDownTabs#0;n#DropRight#0;n#transition#2;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#4297#4323#0" expanded="true" />
+            <element signature="e#4707#9036#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="210" column="33" lean-forward="true" selection-start-line="210" selection-start-column="33" selection-end-line="210" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#DropDown#0;n#transition#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#DropDownTabs#0;n#DropDown#0;n#transition#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#4869#8798#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/views/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4186">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+          <folding>
+            <element signature="n#style#0;n#DropDown#0;n#transition#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#3549#3601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/routes/postRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Post.js">
+    <entry file="file://$PROJECT_DIR$/frontend/VueJS/nervesx/src/components/Dashboard/CreatePostModel.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="442">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#IconButton#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1708#1757#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="112" column="34" selection-start-line="112" selection-start-column="34" selection-end-line="112" selection-end-column="34" />
+        <state relative-caret-position="338">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/Posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/nervesAuth/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="130" column="40" lean-forward="true" selection-start-line="130" selection-start-column="40" selection-end-line="130" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/models/PostImages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/models/Users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="598">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/models/Profiles.js">
+    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/Post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Algorithms/Social/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

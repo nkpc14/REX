@@ -1,5 +1,7 @@
 import Posts from '../../models/Posts';
-import { Types } from 'mongoose';
+import {Types} from 'mongoose';
+import {HttpSuccessResponse, HttpRejectResponse} from '../Utils/Wrappers';
+import user from "./User";
 
 class Post {
     Post = null;
@@ -12,78 +14,35 @@ class Post {
         const post = this.Post.find({
             _id: id
         });
-        return {
-            success: true,
-            data: post,
-            statusCode: 200
-        };
-    }
+        HttpSuccessResponse(post);
+    };
 
     createPost = async () => {
         const post = await new this.Post(userData);
         await post.save();
         if (!post) {
-            return {
-                message: "Problem in creating post, please try again later.",
-                success: false,
-                data: null,
-                statusCode: 500
-            };
+            HttpRejectResponse("Problem in creating post, please try again later.", 500);
         }
-        return {
-            message: "Post created successful",
-            success: true,
-            data: post,
-            statusCode: 500
-        }
-    }
+        HttpSuccessResponse(post, "Post created successful");
+    };
 
     editPost = async (id, postData) => {
         if (Types.ObjectId.isValid(id)) {
-            const post = await this.Post.findOneAndUpdate({
-                _id: id
-            }, {
-                $set: postData
-            }, {
-                new: true
-            });
+            const post = await this.Post.findOneAndUpdate({_id: id}, {$set: postData}, {new: true});
             if (post) {
-                return {
-                    success: true,
-                    message: "Post Updated",
-                    data: post,
-                    statusCode: 200
-                }
+                HttpSuccessResponse(post, "Post Updated");
             }
         }
-        return {
-            success: false,
-            message: "Post don't exist",
-            data: null,
-            statusCode: 201
-        }
-    }
+        HttpRejectResponse("Post don't exist", 404);
+    };
 
-    deletePost = async () => {
+    deletePost = async (id) => {
         if (Types.ObjectId.isValid(id)) {
-            const post = await this.Post.findOneAndRemove({
-                _id: id
-            });
-            return {
-                success: false,
-                message: "Post deleted!",
-                data: null,
-                statusCode: 200
-            }
+            const post = await this.Post.findOneAndRemove({_id: id});
+            HttpSuccessResponse(post, "Post deleted!");
         }
-        return {
-            success: false,
-            message: "Post don't exist",
-            data: null,
-            statusCode: 200
-        }
-    }
-
+        HttpRejectResponse("Post don't exist", 404);
+    };
 }
 
-const post = new Post();
+const post = new Post(Posts);

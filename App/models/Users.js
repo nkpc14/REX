@@ -1,9 +1,19 @@
-import { model, Schema } from 'mongoose';
+import {model, Schema} from 'mongoose';
 
 export default model('User', new Schema({
+    userId: {
+        type: String,
+        required: true,
+        unique: true
+    },
     firstName: {
         type: String,
         required: true
+    },
+    profilePhoto: {
+        type: String,
+        required: false,
+        default: 'demo-male.svg'
     },
     lastName: {
         type: String,
@@ -11,7 +21,8 @@ export default model('User', new Schema({
     },
     username: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     password: {
         type: String,
@@ -19,7 +30,8 @@ export default model('User', new Schema({
     },
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     dob: {
         type: Date,

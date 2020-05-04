@@ -1,5 +1,6 @@
 import Users from '../../models/Users';
-import { Types } from 'mongoose';
+import {Types} from 'mongoose';
+import {HttpSuccessResponse, HttpRejectResponse} from '../Utils/Wrappers';
 
 class User {
     constructor(User) {
@@ -9,52 +10,35 @@ class User {
 
     getUsers = async () => {
         const user = await this.User.find({});
-        return {
-            success: true,
-            data: user,
-            statusCode: 200
-        };
-    }
+        HttpSuccessResponse(user);
+    };
 
     getUserId = async (username) => {
         const user = await this.User.find({
             username: username
         });
-        return {
-            success: true,
-            data: user._id,
-            statusCode: 200
-        };
-    }
+        HttpSuccessResponse(user._id);
+    };
 
     getUserById = async (id) => {
         if (Types.ObjectId.isValid(id)) {
             const user = await this.User.findById(id);
             if (!user) {
-                return {
-                    message: 'User don\' exists.',
-                    success: false,
-                    data: null,
-                    statusCode: 404
-                };
+                return HttpRejectResponse("User don't exists.", 404);
             }
-            delete user.password;
-            delete user.googleId;
-            delete user.accountStatus;
-            return {
-                message: 'User exists.',
-                success: true,
-                data: user,
-                statusCode: 200
+            const data = {
+                id: user._id,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                email: user.email,
+                username: user.username,
+                profilePhoto: user.profilePhoto
             };
+
+            return HttpSuccessResponse(data);
         }
-        return {
-            message: 'UserId is not valid.',
-            success: true,
-            data: null,
-            statusCode: 404
-        };
-    }
+        return HttpRejectResponse("UserId is not valid.", 404);
+    };
 
     getUserByUsername = async (username) => {
         if (Types.ObjectId.isValid(username)) {
@@ -62,24 +46,14 @@ class User {
                 username: username
             });
             if (!user) {
-                return {
-                    message: 'User don\' exists.',
-                    success: false,
-                    data: null,
-                    statusCode: 404
-                }
+                HttpRejectResponse("User don't exists.", 404);
             }
             delete user.password;
             delete user.googleId;
             delete user.accountStatus;
-            res.json({
-                message: 'User exists.',
-                success: true,
-                data: user,
-                statusCode: 200
-            });
+            HttpSuccessResponse(user);
         }
-    }
+    };
 
     createUser = async (userData) => {
         const oldUser = this.User.find({
@@ -90,104 +64,45 @@ class User {
             }]
         });
         if (!oldUser) {
-            return {
-                message: "User already exists",
-                success: false,
-                data: null,
-                statusCode: 200
-            };
+            HttpRejectResponse("User already exists", 200);
         } else {
             const user = await new this.User(userData);
             await user.save();
             if (!user) {
-                return {
-                    message: "Problem in creating user, please try again later.",
-                    success: false,
-                    data: null,
-                    statusCode: 500
-                };
+                HttpRejectResponse("Problem in creating user, please try again later.", 500);
             }
-            return {
-                message: "User created successful",
-                success: true,
-                data: user,
-                statusCode: 500
-            }
+            HttpSuccessResponse(user);
         }
-    }
+    };
 
     updateUserById = async (id, userData) => {
         if (Types.ObjectId.isValid(id)) {
-            const user = await this.User.findOneAndUpdate({
-                _id: id
-            }, {
-                $set: userData
-            }, {
-                new: true
-            });
+            const user = await this.User.findOneAndUpdate({_id: id}, {$set: userData}, {new: true});
             if (user) {
-                return {
-                    success: true,
-                    message: "User Updated",
-                    data: user,
-                    statusCode: 200
-                }
+                HttpSuccessResponse(user);
             }
         }
-        return {
-            success: false,
-            message: "User don't exist",
-            data: null,
-            statusCode: 201
-        }
-    }
+        HttpRejectResponse("User don't exist", 404);
+    };
 
     deleteUserid = async (id) => {
         if (Types.ObjectId.isValid(id)) {
             const user = await this.User.findOneAndRemove({
                 _id: id
             });
-            return {
-                success: false,
-                message: "User deleted!",
-                data: null,
-                statusCode: 200
-            }
+            HttpSuccessResponse();
         }
-        return {
-            success: false,
-            message: "User don't exist",
-            data: null,
-            statusCode: 200
-        }
-    }
+        HttpRejectResponse("User don't exist", 404);
+    };
 
-    deactivate = async (username) => {
+    deactivate = async (id) => {
         if (Types.ObjectId.isValid(id)) {
-            const user = await this.User.findOneAndUpdate({
-                _id: id
-            }, {
-                $set: {
-                    accountStatus: false
-                }
-            }, {
-                new: true
-            });
+            const user = await this.User.findOneAndUpdate({_id: id}, {$set: {accountStatus: false}}, {new: true});
             if (user) {
-                return {
-                    success: true,
-                    message: "Account deactivated",
-                    data: user,
-                    statusCode: 200
-                }
+                HttpSuccessResponse(user, "Account deactivated");
             }
         }
-        return {
-            success: false,
-            message: "User don't exist",
-            data: null,
-            statusCode: 201
-        }
+        HttpRejectResponse("User don't exist", 404);
     }
 }
 
