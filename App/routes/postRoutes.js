@@ -5,16 +5,12 @@ const {body, param, check} = require('express-validator');
 const multer = require('../../fileStorage');
 
 router.get('/', getAllPost);
-router.get('/:id',
-    check('id').notEmpty().trim().escape()
-    , getPostById);
-router.post('/create',  [
-    body('data').trim().escape().isString(),
-],multer('/images/social/posts', ['image/jpg', 'image/png', 'image/jpeg']).single('image'), createPost);
+router.get('/:id', check('id').notEmpty().trim().escape(), getPostById);
+router.post('/create', [body('data').notEmpty().trim().escape().isString(),
+    body('tags').trim().escape()
+], multer('/images/social/posts', ['image/jpg', 'image/png', 'image/jpeg']).single('image'), createPost);
 
-router.post('/filter', multer('/images/social/posts', ['image/jpg', 'image/png', 'image/jpeg']).single('image'), [
-    body('data').trim().escape().isString(),
-], filterByTag);
+router.post('/tag/:id', [body('data').trim().escape().isString(),], filterByTag);
 router.post('/edit/:id', multer('/images/social/posts', ['image/jpg', 'image/png', 'image/jpeg']).single('image'), [
     body('data').trim().escape().isString(),
 ], editPostById);

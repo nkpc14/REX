@@ -18,6 +18,7 @@ import nervesAuth, {
 //Routes import
 import userRoute from './App/routes/UserRoutes';
 import postRoute from './App/routes/postRoutes';
+import profileRoute from './App/routes/profileRoutes';
 import googleAuthRoutes from './auth/google/routes';
 import SocketIdManager from './Server/Sockets/Socket'
 
@@ -50,11 +51,14 @@ app.use(passport.initialize());
 app.use(morgan('dev'));
 app.use(express.static('frontend'));
 app.use('/profile', express.static('images/user_profile'));
-app.use('/auth', cors(corsOptions), googleAuthRoutes);
-app.use('/auth', cors(corsOptions), nervesAuth);
-app.use(cors(corsOptions), isAuthenticated);
-app.use('/user', cors(corsOptions), userRoute);
-app.use('/post', cors(corsOptions), postRoute);
+// app.use('/auth', cors(corsOptions), googleAuthRoutes);
+// app.use('/auth', cors(corsOptions), nervesAuth);
+app.use('/auth', nervesAuth);
+// app.use(cors(corsOptions), isAuthenticated);
+app.use(isAuthenticated);
+app.use('/user', userRoute);
+app.use('/post', postRoute);
+app.use('/profile', profileRoute);
 
 app.use('', (req, res, next) => {
     res.sendFile(path.join(__dirname + '/index.html'));
@@ -69,7 +73,7 @@ connect('mongodb://localhost:27017/REX', {
         const io = require('./Server/Sockets/socket-init').init(server);
         const socket = new SocketIdManager(io);
         socket.onConnect();
-        console.log("Server Started at http://localhost:" + 80);
+        console.log("Server Started at http://localhost:" + 8000);
     }).catch((err) => {
     console.log(err);
     console.log("Error in Connection with MongoDB");

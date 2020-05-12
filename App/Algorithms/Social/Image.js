@@ -1,6 +1,6 @@
 import PostImages from '../../models/PostImages';
 import {Types} from 'mongoose';
-import {HttpSuccessResponse, HttpRejectResponse} from '../Utils/Wrappers';
+import {SuccessResponse, RejectResponse} from '../Utils/Wrappers';
 
 class PostImage {
     constructor(PostImages) {

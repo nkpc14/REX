@@ -1,9 +1,9 @@
-import { Model, Schema } from 'mongoose';
+import {model, Schema} from 'mongoose';
 
-export default Model('Profile', new Schema({
+export default model('Profile', new Schema({
     userId: {
         type: Schema.Types.ObjectId,
-        ref: 'Profiles',
+        ref: 'User',
         required: true,
     },
     mobile: {

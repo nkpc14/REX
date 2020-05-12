@@ -3,7 +3,7 @@ import {model, Schema} from 'mongoose';
 export default model('Posts', new Schema({
     author: {
         type: Schema.Types.ObjectId,
-        ref: 'Profiles',
+        ref: 'Profile',
         required: true,
     },
     data: {

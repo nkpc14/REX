@@ -1,11 +1,6 @@
 import {model, Schema} from 'mongoose';
 
 export default model('User', new Schema({
-    userId: {
-        type: String,
-        required: true,
-        unique: true
-    },
     firstName: {
         type: String,
         required: true
@@ -35,6 +30,7 @@ export default model('User', new Schema({
     },
     dob: {
         type: Date,
+        required: false
     },
     isAdmin: {
         type: Boolean,
@@ -46,8 +42,16 @@ export default model('User', new Schema({
         required: false,
         default: true
     },
-    googleId: String,
-    token: String
+    googleId: {
+        type: String,
+        required: false,
+        default: null
+    },
+    token: {
+        type: String,
+        required: false,
+        default: null
+    },
 }, {
     timestamps: true
 }));

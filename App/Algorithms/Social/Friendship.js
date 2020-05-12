@@ -1,7 +1,7 @@
 import Friends from '../../models/Friends';
 import userObj from './User';
 import {Types} from 'mongoose';
-import {HttpSuccessResponse, HttpRejectResponse} from '../Utils/Wrappers';
+import {SuccessResponse, RejectResponse} from '../Utils/Wrappers';
 
 class Friendship {
     Friends = null;
